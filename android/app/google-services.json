@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "602281714461",
-    "project_id": "eduapp-34d92",
-    "storage_bucket": "eduapp-34d92.appspot.com"
+    "project_number": "109490536606",
+    "project_id": "comp-faadd",
+    "storage_bucket": "comp-faadd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:602281714461:android:60c98feab0d93e8a3b77f4",
+        "mobilesdk_app_id": "1:109490536606:android:0c856e757827994cb97b8f",
         "android_client_info": {
           "package_name": "com.example.humaraproject"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCRHpLr1dVZZqgGYBZk9YAeUlwCyRjolQ4"
+          "current_key": "AIzaSyCWiOJRKV8ufW-w0SxcRdmD4jn-rgQ5m0Y"
         }
       ],
       "services": {
