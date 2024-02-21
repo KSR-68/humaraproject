@@ -110,28 +110,28 @@ class OnBoardingScreen extends StatefulWidget {
 class _OnBoardingScreenState extends State<OnBoardingScreen> {
   List<Map<String, String>> onBoardingData = [
     {
-      "image": 'assets/images/1.jpg',
-      "title": 'Welcome to Sustaina',
+      "image": 'assets/images/reading.png',
+      "title": 'Welcome to Computopia',
       "description":
-          'Join us to monitor and manage your water and electricity for a sustainable lifestyle.'
+          'Discover fun in learning computer basics for beginners in an engaging environment.'
     },
     {
-      "image": 'assets/images/2.jpg',
-      "title": 'Smart Water Management',
+      "image": 'assets/images/man.png',
+      "title": 'Learn the Basics',
       "description":
-          'Optimize water usage for a sustainable lifestyle with personalized tools.'
+          'Start with fundamental computer skills, navigating the desktop, and understanding basic functions.'
     },
     {
-      "image": 'assets/images/3.jpg',
-      "title": 'Save Your Electricity Bills ',
+      "image": 'assets/images/boy.png',
+      "title": 'Fun and Engaging Lessons',
       "description":
-          'Cut costs and reduce your electricity bills with efficient usage tips.'
+          'Interactive lessons, activities, and games for enjoyable learning experiences in computer literacy.'
     },
     {
-      "image": 'assets/images/4.jpg',
-      "title": 'Make Your Home Energy Efficient ',
+      "image": 'assets/images/Programmer.png',
+      "title": 'Enhance Your Litracy',
       "description":
-          'Use our app to optimize your home for energy efficiency, promoting a more sustainable future.'
+          'Enhance your computer literacy with our app, fostering knowledge for a brighter digital future.'
     },
   ];
 
@@ -192,7 +192,9 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   void navigateToHome() {
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (context) => const LoginPage()), // Replace with your home screen
+      MaterialPageRoute(
+          builder: (context) =>
+              const LoginPage()), // Replace with your home screen
     );
   }
 
@@ -325,8 +327,10 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 child: ElevatedButton(
                   onPressed: onOnboardingCompleted,
                   style: ElevatedButton.styleFrom(
-                    foregroundColor: Colors.white, padding: const EdgeInsets.symmetric(
-                        horizontal: 40, vertical: 10), backgroundColor: const Color(0xFF1F41BB),
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 40, vertical: 10),
+                    backgroundColor: const Color(0xFF1F41BB),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
@@ -365,11 +369,14 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                     // Navigate to the signup page
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const SignUpPage()),
+                      MaterialPageRoute(
+                          builder: (context) => const SignUpPage()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
-                    foregroundColor: const Color(0xFF0A0A0A), backgroundColor: Colors.white, padding: const EdgeInsets.symmetric(
+                    foregroundColor: const Color(0xFF0A0A0A),
+                    backgroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(
                         horizontal: 30, vertical: 10),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
